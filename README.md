@@ -30,6 +30,12 @@ Then install the package in editable mode:
 pip install -e .
 ```
 
+Running the tests (from root directory):
+
+```bash
+py.test
+```
+
 Check a source file against the standard Python coding style guidelines (and
 fix associated warnings):
 
