@@ -29,3 +29,10 @@ Then install the package in editable mode:
 ```bash
 pip install -e .
 ```
+
+Check a source file against the standard Python coding style guidelines (and
+fix associated warnings):
+
+```bash
+pycodestyle <source file>
+```
