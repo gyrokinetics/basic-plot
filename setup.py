@@ -16,7 +16,7 @@ setup(
     description = ("A basic plotting package for GS2 output."),
     license = "MIT",
     keywords = "example pytest tutorial sphinx",
-    packages=['basic-plot', 'tests', 'docs'],
+    packages=['basic_plot', 'tests', 'docs'],
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
