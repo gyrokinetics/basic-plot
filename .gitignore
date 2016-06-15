@@ -1,0 +1,6 @@
+__pycache__
+*.swp
+build
+*.egg*
+dist
+.cache
