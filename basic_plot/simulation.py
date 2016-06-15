@@ -1,7 +1,7 @@
 """
 .. class:: Simulation
    :platform: Unix
-   :synopsis: Defines the Simulation class representing a single GS2 simulation.
+   :synopsis: Simulation class representing a single GS2 simulation.
 
 """
 
@@ -9,6 +9,7 @@ import os
 
 import numpy as np
 from netCDF4 import Dataset
+
 
 class Simulation(object):
     """ Represents a single GS2 simulation."""
@@ -106,7 +107,3 @@ class Simulation(object):
         graph_data['y'] = var_obj[:]
 
         return graph_data
-
-
-
-
